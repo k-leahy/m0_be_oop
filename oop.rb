@@ -109,3 +109,11 @@ class Hobbit
         end
     end
 end
+p hobbit1 = Hobbit.new("Frodo", "Shorty")
+p hobbit1.birthday
+p hobbit1.birthday
+p hobbit1
+p hobbit1.birthday
+p hobbit1.name_change
+p hobbit1
+
