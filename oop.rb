@@ -94,16 +94,18 @@ class Hobbit
         @has_ring = false
     end
     def birthday 
-        @age += 1
+      @age += 1
 
         if @age >= 101
             @is_old = true
         elsif @age >= 33
             @adult = true
         end
-
+      @age
+    end
+    def name_change
         if @name == "Frodo"
-            @had_ring = true
+            @has_ring = true
         end
     end
 end
