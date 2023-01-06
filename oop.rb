@@ -102,7 +102,7 @@ class Hobbit
             @adult = true
         end
 
-        if @name = "Frodo"
+        if @name == "Frodo"
             @had_ring = true
         end
     end
